@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #0D1F11;
+    font-family: "Teachers", sans-serif;
+    font-weight: 500;
+}
+
+header {
+    background-color: #0D1F11;
+    padding: 10px 0;
+}
+
+.nav {
+    height: 80px;
+    /* background-color:#fff; */
+}
+
+.nav img {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.nav a{
+    color: #d1d8e0;
+    margin-left: 100px;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.nav button {
+    margin-left: 20%;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #f6b93b;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: left;
+    padding: 100px 0;
+    background-color: #0D1F11;
+    display: flex;
+    padding: 50px ;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero image {
+    margin-right: 200px;
+}
+
+.cta-button {
+    background-color: #C4E538;
+    color: #111111;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.services {
+    background-image: url(./assets/Rectangle\ 8176\ \(3\).png);
+    width: 100%;
+    padding: 50px;
+}
+
+.services h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services p {
+    text-align: center;
+
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    text-align: center;
+    width: 20%;
+}
+
+.service img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+.features h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    text-align: center;
+    width: 50%;
+}
+
+.feature img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.investment-options {
+    background-color: #0D1F11;
+    padding: 80px ;
+    text-align: left;
+    display: flex;
+    /* font-size: 25px; */
+}
+
+.investment-options img {
+    max-width: 600px;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 200px;
+}
+
+.investment-approach {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.approach-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.subscribe {
+    background-color: #0D1F11;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 20px;
+}
